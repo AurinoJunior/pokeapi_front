@@ -9,7 +9,7 @@ interface ICardProps {
 export function Card({ image, name, abilities }: ICardProps) {
   return (
     <div className="card">
-      <img src={image} width={240} height={240} />
+      <img src={image} width={200} height={200} />
       <h2>{name}</h2>
       {abilities && (
         <>

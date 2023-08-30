@@ -1,0 +1,9 @@
+$desktop: 1080px;
+$tablet: 720px;
+$mobile: 420px;
+
+@mixin responsive($query) {
+  @media ( min-width: $query ) {
+      @content;
+  }
+}

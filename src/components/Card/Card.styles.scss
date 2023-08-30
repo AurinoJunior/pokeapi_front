@@ -1,7 +1,16 @@
+@use "../../styles/breakpoints.scss" as b;
+
 .card {
+  text-align: center;
   border-radius: var(--border-radius-l);
   border: 1px solid var(--gray_600);
-  padding: 3rem 5rem;
+  padding: 2rem;
+  max-width: var(--max-width-default);
+
+  @include b.responsive(b.$desktop) {
+    padding: 3rem 5rem;
+    max-width: auto;
+  }
 
   h2 {
     text-align: center;
