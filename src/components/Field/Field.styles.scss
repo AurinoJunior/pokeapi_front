@@ -1,0 +1,23 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-width: 275px;
+
+  label {
+    color: #6C6C6C;
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  input {
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #878787;
+
+    &::placeholder {
+      font-weight: 700;
+      color: #878787;
+    }
+  }
+}

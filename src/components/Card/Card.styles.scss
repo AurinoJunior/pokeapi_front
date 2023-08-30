@@ -1,0 +1,26 @@
+.card {
+  border-radius: 1.8rem;
+  border: 1px solid #7D7D7D;
+  padding: 3rem 5rem;
+
+  h2 {
+    text-align: center;
+  }
+
+  &-abilities__title {
+    text-align: center;
+    margin-top: 1rem;
+    color: #6B6B6B;
+  }
+
+  &-abilities__box {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 1rem;
+    justify-content: space-evenly;
+  }
+
+  &-abilities__item {
+    font-weight: 700;
+  }
+}

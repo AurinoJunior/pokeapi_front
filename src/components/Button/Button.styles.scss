@@ -1,0 +1,13 @@
+.button {
+  border: none;
+  border-radius: 10px;
+  height: fit-content;
+  padding: 1rem;
+  background: #2762AD;
+  color: #FFFFFF;
+  font-weight: 700;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
+}

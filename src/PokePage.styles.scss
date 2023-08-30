@@ -1,0 +1,14 @@
+.poke-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  margin: 4rem 0;
+
+
+  &__form-field {
+    display: flex;
+    align-items: end;
+    gap: 1rem;
+  }
+}
