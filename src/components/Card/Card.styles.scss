@@ -9,7 +9,7 @@
 
   @include b.responsive(b.$desktop) {
     padding: 3rem 5rem;
-    max-width: auto;
+    max-width: var(--max-width-large);
   }
 
   h2 {
