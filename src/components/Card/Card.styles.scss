@@ -25,11 +25,13 @@
   &-abilities__box {
     display: grid;
     grid-template-columns: auto auto;
+    justify-content: space-between;
+    gap: 1rem;
     margin-top: 1rem;
-    justify-content: space-evenly;
   }
 
   &-abilities__item {
     font-weight: 700;
+    font-size: 1rem;
   }
 }
