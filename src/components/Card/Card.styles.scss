@@ -1,6 +1,6 @@
 .card {
-  border-radius: 1.8rem;
-  border: 1px solid #7D7D7D;
+  border-radius: var(--border-radius-l);
+  border: 1px solid var(--gray_600);
   padding: 3rem 5rem;
 
   h2 {
@@ -10,7 +10,7 @@
   &-abilities__title {
     text-align: center;
     margin-top: 1rem;
-    color: #6B6B6B;
+    color: var(--gray_700);
   }
 
   &-abilities__box {

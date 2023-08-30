@@ -27,8 +27,9 @@ export function PokePage() {
       setPokemon(response);
       setIsLoading(false);
     } catch (err) {
+      setIsLoading(false);
       if (err instanceof AxiosError) console.error(err.message);
-      notifyToast("Ops, algo deu errado!");
+      notifyToast("Ops, algo deu errado, tente revisar o nome do pokemon!");
     }
   }
 

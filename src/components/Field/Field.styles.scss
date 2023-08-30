@@ -5,19 +5,19 @@
   min-width: 275px;
 
   label {
-    color: #6C6C6C;
+    color: var(--gray_700);
     font-size: 1.25rem;
     font-weight: 700;
   }
 
   input {
     padding: 1rem 1.5rem;
-    border-radius: 10px;
-    border: 1px solid #878787;
+    border-radius: var(--border-radius-s);
+    border: 1px solid var(--gray_500);
 
     &::placeholder {
       font-weight: 700;
-      color: #878787;
+      color: var(--gray_500);
     }
   }
 }

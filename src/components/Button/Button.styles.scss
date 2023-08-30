@@ -1,10 +1,10 @@
 .button {
   border: none;
-  border-radius: 10px;
+  border-radius: var(--border-radius-s);
   height: fit-content;
   padding: 1rem;
-  background: #2762AD;
-  color: #FFFFFF;
+  background: var(--blue_500);
+  color: var(--white);
   font-weight: 700;
 
   &:hover {
