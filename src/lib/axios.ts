@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-  baseURL: "http://localhost:3333/pokemon",
+  baseURL: import.meta.env.VITE_BASE_API,
   timeout: 5000,
   headers: {
     "Content-Type": "application/json",
