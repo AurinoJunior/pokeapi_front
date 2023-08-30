@@ -22,6 +22,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: ci-production
     steps:
+      - name: Install dependencies
+        run: yarn install
       - name: Install Vercel CLI
         run: npm install --global vercel@latest
       - name: Pull Vercel Environment Information
