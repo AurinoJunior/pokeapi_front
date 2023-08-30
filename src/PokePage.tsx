@@ -1,26 +1,23 @@
 import { useState } from "react";
 import { api } from "./services/api";
+import { IPokemonResponse } from "./@types/pokemon";
 import { Button, Card, Field } from "./components";
 
 import pokeapiLogo from "./images/pokeapi-logo.png";
 import shadowPokemon from "./images/shadow-pokemon.svg";
 import "./PokePage.styles.scss";
 
-interface IPokemon {
-  name: string;
-  img: string;
-  abilities: string[];
-}
-
 export function PokePage() {
-  const [pokemon, setPokemon] = useState<IPokemon | null>();
+  const [pokemon, setPokemon] = useState<IPokemonResponse | null>();
   const [fieldValue, setFieldalue] = useState("");
 
   async function handleSubmitGetNewPokemon(
     evt: React.FormEvent<HTMLFormElement>
   ) {
     evt.preventDefault();
-    const response = await api.getPokemonAbilities(fieldValue);
+    const response: IPokemonResponse = await api.getPokemonAbilities(
+      fieldValue
+    );
     setPokemon(response);
   }
 
