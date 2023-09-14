@@ -23,8 +23,6 @@
 
 Esse projeto usa as informações de um middleware que processa e devolve as informações da poke api, o outro projeto consiste em uma api, nesse repositorio https://github.com/AurinoJunior/pokeapi_challenge.
 
-URL: https://pokeapi-web.vercel.app/
-
 ## :computer: Tecnologias
 
 - vite
@@ -44,5 +42,3 @@ URL: https://pokeapi-web.vercel.app/
 ## :beers: Como usar
 
 Acesse http://localhost:5173/ digite o nome de algum pokemon no campo de busca e será exibido na tela a imagem, o nome e suas habilidade em ordem alfabética.
-
-Url de produção https://pokeapi-web.vercel.app/
