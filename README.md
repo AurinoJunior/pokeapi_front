@@ -21,7 +21,7 @@
 
 ## :blue_book: Contexto
 
-Esse projeto usa as informações de um middleware que processa e devolve as informações da poke api, o outro projeto consiste em uma api, nesse repositorio https://github.com/AurinoJunior/pokeapi_challenge.
+Esse projeto usa as informações de um middleware que processa e devolve as informações da poke api, o outro projeto consiste em uma api, nesse repositorio https://github.com/AurinoJunior/pokeapi_back
 
 ## :computer: Tecnologias
 
